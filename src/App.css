@@ -15,9 +15,7 @@ td.block{
 	white-space: nowrap;
 }
 
-.modal-content {
-    margin-top: 200px;
-}
+.modal-content { margin-top: 200px; }
 
 /* Style the list */
 ul.breadcrumb {
