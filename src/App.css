@@ -1,33 +1,57 @@
-.App {
-  text-align: center;
+#content {
+    padding: 20px 60px 40px;
+    margin-top: 60px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.bg-theme {
+    background-color: #42b549;
+    color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:hover { text-decoration: none; }
+
+td.block{
+	width: 1%;
+	white-space: nowrap;
 }
 
-.App-link {
-  color: #61dafb;
+.modal-content {
+    margin-top: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style the list */
+ul.breadcrumb {
+    padding: 6px 10px;
+    list-style: none;
+    background-color: #eee;
+}
+  
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+}
+  
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+  
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #42b549;
+    text-decoration: none;
+}
+  
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 576px) {
+    #content {
+        padding: 20px 20px 60px;
+    }
 }
